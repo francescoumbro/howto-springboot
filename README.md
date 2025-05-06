@@ -14,13 +14,13 @@ Un'applicazione Spring Boot per la gestione degli utenti con operazioni CRUD esp
 
 ---
 
-## 📌 Descrizione
+## 📌Descrizione
 
 Un'applicazione Spring Boot per la gestione degli utenti con operazioni CRUD esposte tramite un'API REST.
 
 ---
 
-## 📋 Requisiti
+## 📋Requisiti
 
 - Java 24
 - Maven
@@ -28,13 +28,13 @@ Un'applicazione Spring Boot per la gestione degli utenti con operazioni CRUD esp
 
 ---
 
-## ⚙️ Configurazione
+## ⚙️Configurazione
 
 Configura il file `application.properties` per il tuo ambiente.
 
 ---
 
-## 🚀 Avvio dell'Applicazione
+## 🚀Avvio dell'Applicazione
 
 ```bash
 mvn spring-boot:run

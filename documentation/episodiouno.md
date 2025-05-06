@@ -1,8 +1,8 @@
-# 📖 Episodio Uno - Annotazioni e API
+# 📖Episodio Uno - Annotazioni e API
 
 ---
 
-## 🛠️ Annotazioni Utilizzate
+## 🛠️Annotazioni Utilizzate
 
 ### Spring Framework
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 🔗 Invocare i Servizi con `curl`
+## 🔗Invocare i Servizi con `curl`
 
 ### 1. Ottenere tutti gli utenti
 
