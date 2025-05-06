@@ -8,14 +8,14 @@ Un'applicazione Spring Boot per la gestione degli utenti con operazioni CRUD esp
 
 - [📌 Descrizione](#descrizione)
 - [🛠️ Annotazioni Utilizzate](#annotazioni-utilizzate)
-    - [Spring Framework](#spring-framework)
-    - [JavaDoc](#javadoc)
+  - [Spring Framework](#spring-framework)
+  - [JavaDoc](#javadoc)
 - [🔗 Invocare i Servizi con curl](#invocare-i-servizi-con-curl)
-    - [1. Ottenere tutti gli utenti](#1-ottenere-tutti-gli-utenti)
-    - [2. Ottenere un utente per email](#2-ottenere-un-utente-per-email)
-    - [3. Creare un nuovo utente](#3-creare-un-nuovo-utente)
-    - [4. Aggiornare un utente esistente](#4-aggiornare-un-utente-esistente)
-    - [5. Eliminare un utente](#5-eliminare-un-utente)
+  - [1. Ottenere tutti gli utenti](#1-ottenere-tutti-gli-utenti)
+  - [2. Ottenere un utente per email](#2-ottenere-un-utente-per-email)
+  - [3. Creare un nuovo utente](#3-creare-un-nuovo-utente)
+  - [4. Aggiornare un utente esistente](#4-aggiornare-un-utente-esistente)
+  - [5. Eliminare un utente](#5-eliminare-un-utente)
 - [📋 Requisiti](#requisiti)
 - [⚙️ Configurazione](#configurazione)
 - [🚀 Avvio dell'Applicazione](#avvio-dellapplicazione)
@@ -32,12 +32,12 @@ Un'applicazione Spring Boot per la gestione degli utenti con operazioni CRUD esp
 
 ### Spring Framework
 
-- **`@RestController`**: Indica che la classe è un controller REST, combinando le funzionalità di `@Controller` e `@ResponseBody`.
-- **`@RequestMapping`**: Specifica il percorso base per tutti gli endpoint della classe.
-- **`@GetMapping`**, **`@PostMapping`**, **`@PutMapping`**, **`@DeleteMapping`**: Mappano rispettivamente le richieste HTTP GET, POST, PUT e DELETE.
-- **`@PathVariable`**: Estrae un valore dalla URL e lo passa come parametro al metodo.
-- **`@RequestBody`**: Deserializza il corpo della richiesta HTTP in un oggetto Java.
-- **`@Service`**: Componente di servizio per la logica di business.
+- **`@RestController`**: Indica che la classe è un controller REST.
+- **`@RequestMapping`**: Percorso base per tutti gli endpoint.
+- **`@GetMapping`**, **`@PostMapping`**, **`@PutMapping`**, **`@DeleteMapping`**: Mappano le richieste HTTP.
+- **`@PathVariable`**: Legge parametri dalla URL.
+- **`@RequestBody`**: Converte il JSON in oggetto Java.
+- **`@Service`**: Logica di business.
 
 ### JavaDoc
 
@@ -97,21 +97,19 @@ Sostituisci `{email}` con l'email dell'utente da eliminare.
 
 ## 📋 Requisiti
 
-- **Java 24**
-- **Maven**
-- **Spring Boot 3.4.5**
+- Java 24
+- Maven
+- Spring Boot 3.4.5
 
 ---
 
 ## ⚙️ Configurazione
 
-Assicurati di avere configurato correttamente il file `application.properties` per il tuo ambiente.
+Configura il file `application.properties` per il tuo ambiente.
 
 ---
 
 ## 🚀 Avvio dell'Applicazione
-
-Esegui il comando:
 
 ```bash
 mvn spring-boot:run
