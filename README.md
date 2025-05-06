@@ -22,13 +22,13 @@ Un'applicazione Spring Boot per la gestione degli utenti con operazioni CRUD esp
 
 ---
 
-## 📌 Descrizione
+## 📌Descrizione
 
 Un'applicazione Spring Boot per la gestione degli utenti con operazioni CRUD esposte tramite un'API REST.
 
 ---
 
-## 🛠️ Annotazioni Utilizzate
+## 🛠️Annotazioni Utilizzate
 
 ### Spring Framework
 
@@ -45,7 +45,7 @@ Un'applicazione Spring Boot per la gestione degli utenti con operazioni CRUD esp
 
 ---
 
-## 🔗 Invocare i Servizi con `curl`
+## 🔗Invocare i Servizi con `curl`
 
 ### 1. Ottenere tutti gli utenti
 
@@ -95,7 +95,7 @@ Sostituisci `{email}` con l'email dell'utente da eliminare.
 
 ---
 
-## 📋 Requisiti
+## 📋Requisiti
 
 - Java 24
 - Maven
@@ -103,13 +103,13 @@ Sostituisci `{email}` con l'email dell'utente da eliminare.
 
 ---
 
-## ⚙️ Configurazione
+## ⚙️Configurazione
 
 Configura il file `application.properties` per il tuo ambiente.
 
 ---
 
-## 🚀 Avvio dell'Applicazione
+## 🚀Avvio dell'Applicazione
 
 ```bash
 mvn spring-boot:run
