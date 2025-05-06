@@ -1,6 +1,6 @@
-package it.umbrofrancesco.episodio.uno.service.api;
+package it.umbrofrancesco.service.api;
 
-import it.umbrofrancesco.episodio.uno.dto.User;
+import it.umbrofrancesco.dto.User;
 
 import java.util.List;
 

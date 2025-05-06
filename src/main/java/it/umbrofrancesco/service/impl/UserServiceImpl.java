@@ -1,7 +1,7 @@
-package it.umbrofrancesco.episodio.uno.service.impl;
+package it.umbrofrancesco.service.impl;
 
-import it.umbrofrancesco.episodio.uno.dto.User;
-import it.umbrofrancesco.episodio.uno.service.api.IUserService;
+import it.umbrofrancesco.dto.User;
+import it.umbrofrancesco.service.api.IUserService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

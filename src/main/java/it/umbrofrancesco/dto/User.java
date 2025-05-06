@@ -1,4 +1,4 @@
-package it.umbrofrancesco.episodio.uno.dto;
+package it.umbrofrancesco.dto;
 
 /**
  * Rappresenta un utente con nome, cognome ed email.

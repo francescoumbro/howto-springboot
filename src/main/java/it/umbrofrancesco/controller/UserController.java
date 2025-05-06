@@ -1,7 +1,7 @@
-package it.umbrofrancesco.episodio.uno.controller;
+package it.umbrofrancesco.controller;
 
-import it.umbrofrancesco.episodio.uno.dto.User;
-import it.umbrofrancesco.episodio.uno.service.api.IUserService;
+import it.umbrofrancesco.dto.User;
+import it.umbrofrancesco.service.api.IUserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
