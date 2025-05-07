@@ -24,12 +24,14 @@
 ### 1. Ottenere tutti gli utenti
 
 ```bash
+
 curl -X GET http://localhost:8080/users
 ```
 
 ### 2. Ottenere un utente per email
 
 ```bash
+
 curl -X GET http://localhost:8080/users/{email}
 ```
 
@@ -38,6 +40,7 @@ Sostituisci `{email}` con l'email dell'utente desiderato.
 ### 3. Creare un nuovo utente
 
 ```bash
+
 curl -X POST http://localhost:8080/users \
   -H "Content-Type: application/json" \
   -d '{
@@ -49,6 +52,7 @@ curl -X POST http://localhost:8080/users \
 ### 4. Aggiornare un utente esistente
 
 ```bash
+
 curl -X PUT http://localhost:8080/users/{email} \
   -H "Content-Type: application/json" \
   -d '{
@@ -60,6 +64,7 @@ curl -X PUT http://localhost:8080/users/{email} \
 ### 5. Eliminare un utente
 
 ```bash
+
 curl -X DELETE http://localhost:8080/users/{email}
 ```
 
